@@ -1,15 +1,17 @@
-<!doctype html>
+<!doctype>
 <html>
   <head>
     <title>Movies App</title>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="app.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
   <body>
-    <form>
-      <input type="text" name="somefield">
-      <button>Search</button>
+    <form class="search searchform cf" action="">
+      <input type="text" placeholder="Your favourite movie..." required name="somefield">
+      <button type="submit">Search</button>
     </form>
     <h1>Results</h1>
+    <section class="result"></section>
   </body>
 </html>
